@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+nav{
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    max-width: 1600;
+    height: 92px;
+    
+}
+nav ul{
+    display: flex;
+    height: 365px;
+    width: 24px;
+
+    
+    
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 32px;
+}
+nav .logo{
+    height: 60px;
+    width: 139px;
+}
