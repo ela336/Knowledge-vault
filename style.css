@@ -3,7 +3,11 @@
     padding: 0px;
     
 }
-
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  
+  
+}
 
 nav{
     display: flex;
@@ -16,21 +20,32 @@ nav{
     
 }
 nav ul{
-    display: flex;
-    height: 365px;
-    width: 24px;
+    display: flex;    
+    
 
     
     
 }
-nav ul a{
+nav ul li a{
     text-decoration: none;
+    color: #000000;
 }
 nav ul li{
     list-style: none;
     margin-right: 32px;
+    
 }
 nav .logo{
     height: 60px;
     width: 139px;
+}
+
+header nav button{
+    height: 44px;
+    width: 144px;
+    padding: 16px;
+    background-color: #30B868;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 4px;
 }
