@@ -51,16 +51,31 @@ header nav button{
     font-size: 16px;
     font-weight: 600;
     text-align: center;
+    
      
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1600px;
 }
 
 .banner .banner-container{
-    background-image: url(./assets/hero-bg.png);
-    width: 100%;
-    max-width: 1600px;
+    
+    margin: 0 auto;
+    padding: 116px 120px;
+
+    
+   
+   
     
 
 }
+
 .banner .banner-container .early-access{
     height: 35px;
     width: 229px;
@@ -75,8 +90,15 @@ header nav button{
     align-items: center;
     justify-content: space-around;
     margin-bottom: 16px;
+    
+     
+    
 
    
+}
+.banner .banner-container .early-access p{
+    text-align: center;
+    padding-top: 16px;
 }
 .banner .banner-container .early-access div{
     background-color: #30B868;
@@ -87,3 +109,44 @@ header nav button{
     box-shadow: 2px 2px 10px #30B868;
     
 }
+.banner .banner-container h1{
+    color: #FFFFFF;
+    width: 48%;
+  max-width: 770px;
+   height: 164px;
+   font-size: 48px;
+   font-weight: 700;
+    
+   
+   
+}
+
+h1 span{
+    color: #30B868;
+}
+.banner .banner-container p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    
+}
+.bannerbtn .btn1{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    margin-right: 16px;
+}
+.bannerbtn .btn2{
+    font-size: 16px;
+    font-weight: 600;
+   background: inherit;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 12px 16px;
+    color: #FFFFFF;
+}
+
